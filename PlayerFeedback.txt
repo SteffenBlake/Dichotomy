@@ -1,0 +1,177 @@
+================================================================================
+DICHOTOMY - VERSION 0.1 BETA TEST PLAYER FEEDBACK
+================================================================================
+
+This document contains player feedback from the 0.1 beta test, along with 
+proposed solutions for the next version.
+
+For the original 0.1 beta rules, see OldRules.txt
+
+
+--------------------------------------------------------------------------------
+ISSUE #1: DICE IMBALANCE
+--------------------------------------------------------------------------------
+
+PROBLEM:
+Larger dice were strictly better than smaller dice. A D10 can still roll 1-4, 
+making it superior to a D4 in all situations with no meaningful trade-off.
+
+PROPOSED SOLUTION:
+Implement a magnitude-based system where tasks require hitting specific ranges 
+rather than exceeding thresholds. Success requires rolling WITHIN the target 
+range (overshooting causes failure). The four magnitudes are Small (1-4), 
+Medium (5-8), Large (9-12), and Huge (13-16), mirrored for both Yin (negative) 
+and Yang (positive). Rolling 0 hits balanced/neutral tasks. Rolling beyond ±17 
+results in critical failures.
+
+During character creation, players assign each die a permanent bonus modifier. 
+Players may choose any number, though staying between -12 and +12 is 
+recommended to avoid excessive critical failures. This bonus shifts where the 
+die lands on the magnitude spectrum. For example: D4+12 rolls 13-16 (100% 
+Huge Yang success), D4-1 rolls 0-3 (straddling Balanced and Small Yang at 
+25%/75%), D8+4 rolls 5-12 (50%/50% split between Medium and Large Yang).
+
+This creates "focused specialist" vs "flexible generalist" tradeoffs. A D4 
+can achieve 100% success in one magnitude or strategically straddle two 
+magnitudes for 50%/50% reliability (acting like a D8). A D6 can favor one 
+magnitude (66.7%) while touching another (33.3%). A D8 naturally straddles 
+two magnitudes at 50%/50% or can spread across three. Larger dice (D10, D12) 
+cover multiple magnitudes but with lower individual success rates (40%, 33.3% 
+respectively), making them unreliable generalists capable of attempting any 
+magnitude but less likely to succeed at any specific one.
+
+The mental math is simple: count by 4s. Players choose whether to specialize 
+(guaranteed success in narrow scenarios) or generalize (attempt anything but 
+succeed less often). Each die assignment becomes a meaningful strategic 
+decision about character capabilities and playstyle.
+
+
+--------------------------------------------------------------------------------
+ISSUE #2: DICE HOARDING
+--------------------------------------------------------------------------------
+
+PROBLEM:
+Players felt encouraged to hoard dice rather than spend them. No mechanical 
+incentive to take risks or "burn" dice on attempts.
+
+PROPOSED SOLUTION:
+Implement an experience point system that heavily rewards failure over success:
+
+• Succeeding at a task grants 1 exp point
+• Failing at a task grants 3 exp points
+
+This creates a strong mechanical incentive for players to spend dice freely and 
+take risks, even when failure is likely. The narrative success of completing a 
+task is its own reward, while mechanical character advancement comes primarily 
+from attempting difficult tasks and learning from failure. Players are 
+encouraged to engage with challenges and drive the narrative forward rather 
+than conserving resources.
+
+Exp points are spent to progress character Threads (see Issue #3), creating a 
+direct link between taking risks and advancing your character's personal story.
+
+
+--------------------------------------------------------------------------------
+ISSUE #3: CHARACTER GROWTH
+--------------------------------------------------------------------------------
+
+PROBLEM:
+No good built-in character growth process. Players want meaningful progression 
+and development over time. The new bonus system means dice are already optimized 
+at character creation, leaving no room for mechanical stat improvement.
+
+PROPOSED SOLUTION:
+Implement Aspects and Threads as the core progression system.
+
+ASPECTS:
+Aspects are specific personal traits, items, knowledge, relationships, or 
+beliefs that define your character. Examples: "Studied under Master Blacksmith 
+Chen", "Carries my mother's lucky compass", "Never breaks a promise", "Knows 
+the old smuggler routes". Characters start with 1 Aspect.
+
+Before making a roll, a player may spend an applicable Aspect to gain one of 
+these benefits:
+  1. Invert the die's bonus for that roll (D8+10 becomes D8-10, allowing you 
+     to use a die outside its normal range)
+  2. Negate a critical failure, turning it into a normal failure
+
+All spent Aspects recharge after a long rest (when all players' dice pools are 
+recharged). Players must narratively justify how the specific Aspect applies to 
+the situation.
+
+THREADS:
+Threads are the next story beats in your character's personal narrative - the 
+questions they seek to answer, goals they pursue, or mysteries they investigate. 
+Characters start with 2 Threads written down.
+
+Players spend accumulated exp points to progress Threads in exponential 
+increments: 4 exp for the first Thread, 8 exp for the second, 12 exp for the 
+third, 16 exp for the fourth, and so on (continuing the pattern indefinitely). 
+When you spend exp to progress a Thread, the next chapter of play incorporates 
+resolution or advancement of that story beat, and you gain a new Aspect that 
+emerges from that narrative progression. You then write down your next Thread, 
+maintaining a running list of upcoming story goals.
+
+This creates exponential growth: more Aspects = more flexibility and clutch 
+moments = more engagement with challenges = more exp = faster Thread progression. 
+Terminology: "Chapter" refers to a scene or story segment, "Volume" refers to 
+a full play session.
+
+NOTE: Thread progression costs changed to flat 20 exp per progression (see 
+GMless Structure section below for reasoning).
+
+
+--------------------------------------------------------------------------------
+GENERAL CHANGE: GMLESS STRUCTURE
+--------------------------------------------------------------------------------
+
+PROPOSAL:
+Shift from traditional GM-led gameplay to a GMless narrative control system 
+where all players share responsibility for steering the story.
+
+STORY POINTS:
+Each player starts every Volume (play session) with 12 Story Points. These 
+points are used to bid for narrative control and break ties during challenge 
+magnitude voting. Story Points recharge at the start of each new Volume.
+
+CHAPTER BIDDING:
+At the start of each Chapter, all players participate in a blind bid using 
+their Story Points. Each player secretly chooses how many points to bid (0 or 
+more), then all bids are revealed simultaneously. The highest bidder spends 
+their bid points and becomes the Chapter Director, gaining narrative control 
+for that Chapter. In case of tied bids, tied players re-bid until a winner 
+emerges. The Chapter Director sets the scene and guides the narrative flow 
+while other players roleplay their characters and contribute.
+
+VOLUME STRUCTURE:
+Each Volume consists of 10 Chapters. Each Chapter contains exactly 4 Challenges 
+that characters must attempt (though players choose which character attempts 
+each challenge). This provides 40 total challenges per Volume, averaging ~10 
+challenges per player in a 4-player group. At realistic success rates (~60% 
+success rate), each player earns approximately 12 exp per Volume.
+
+CHALLENGE MAGNITUDE DETERMINATION:
+When a challenge arises, players must collectively determine its magnitude 
+(Small, Medium, Large, or Huge). Players do NOT specify which attribute is 
+required - any attribute can potentially solve the challenge as long as it hits 
+the target magnitude (Yin or Yang). The process:
+
+1. Open Vote: All players vote on the magnitude
+2. Clear majority wins immediately
+3. If Tied: Any tied player can spend 1 Story Point to push their choice
+4. Multiple spenders: Highest magnitude among spenders wins (rewards making 
+   challenges harder, which grants more exp through failure)
+
+This allows ANY character approach to work if it narratively makes sense and 
+hits the magnitude, encouraging creative problem-solving.
+
+THREAD PROGRESSION ADJUSTMENT:
+To accommodate the increased number of challenges per Volume, Thread progression 
+costs are set to a flat 20 exp per progression (instead of the exponential 4, 
+8, 12, 16... system). This ensures players progress approximately 1 Thread 
+every 1-2 Volumes, meaning only 2-3 of the 10 Chapters per Volume focus on 
+individual Thread progressions, leaving the majority of Chapters for general 
+story development.
+
+
+================================================================================

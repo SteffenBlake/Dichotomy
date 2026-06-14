@@ -1,0 +1,481 @@
+================================================================================
+DICHOTOMY - VERSION 0.1 BETA TEST RULES
+================================================================================
+
+NOTE: These are the original rules from the early 0.1 beta test, used to 
+gather player feedback. For feedback on these rules, see PlayerFeedback.txt
+
+================================================================================
+
+--------------------------------------------------------------------------------
+INTRODUCTION
+--------------------------------------------------------------------------------
+
+Dichotomy is a dice-based Roleplaying Game meant for any number of players, 
+who take on the roles of created characters in a fictional narrative of their 
+own craft and desire.
+
+One Player assumes the role of Mediator. The Mediator controls the narrative 
+of all events and occurrences outside the scope of the player's characters. 
+The Mediator handles making judgment calls for when a character's attempted 
+action justifies rolling a dice for success. The general rule of thumb is if 
+it is an action that has a reasonable chance to fail, it should require a roll 
+to attempt success.
+
+Games can be played over numerous individual Sessions, with play picking up 
+where everything was left off at the end of the prior Session.
+
+While other Roleplaying games have a more technical focus on mechanics like 
+combat, character placement, tracking inventory, etc, Dichotomy is much more 
+of a Narrative focused game, encouraging players to craft a story together.
+
+
+--------------------------------------------------------------------------------
+CORE CONCEPT: DUALITY - YIN AND YANG
+--------------------------------------------------------------------------------
+
+In Dichotomy all tasks, rolls, Attributes, and bonuses are considered to be 
+either Yin or Yang, with neither being "good" or "bad", just different. The 
+core principle of Dichotomy is representing how nearly everything just has 
+another side to its coin, and the dual nature of all things.
+
+Yin represents the cool, calm, collected, and methodical. It is associated 
+with Low and Negative numbers, rolls, and bonuses.
+
+Yang represents the warm, energetic, emotional, and creative. It is associated 
+with High and Positive numbers, rolls, and bonuses.
+
+Everyone has a bit of both in them, and characters will naturally be created 
+by players that have a balance between both Yin and Yang characteristics.
+
+
+--------------------------------------------------------------------------------
+CHARACTER CREATION
+--------------------------------------------------------------------------------
+
+ATTRIBUTES
+----------
+To begin, players assign one of each of 5 Attributes to a respective 
+Polyhedral Dice that they wish to represent that Attribute. These are a D4, 
+D6, D8, D10, and D12. When they wish to Perform a Task with that Attribute, 
+they can "spend" the dice and roll with it, using its result as the base score 
+for the roll, then add on other applicable potential Bonuses (covered in the 
+"Performing Tasks" section).
+
+The five attributes are as follows:
+
+• ALACRITY: Represents speed and dexterity
+• VIGOR: Represents strength, size, stamina, and constitution
+• PULCHRITUDE: Represents beauty, creativity, intimidation, and scariness
+• TEMPERAMENT: Represents willpower, focus, attitude, and flexibility
+• REPUTATION: Represents popularity, recognition, who you know, and who 
+  you don't know
+
+Each attribute has both a Yin and a Yang Duality, representing the nature of 
+how Attributes have divergent behaviors:
+
+ALACRITY
+  Yin (1-2):  Dexterity, Fine Motor Skills, Stealth, Craftmanship, 
+              Sleight of Hand, Aiming
+  Yang (7+):  Speed, Acrobatics, Reflexes, Dodging, Performing, 
+              Throwing Distance
+
+VIGOR
+  Yin (1-2):  Squeezing through gaps, Sensitivity, Awareness, Insight, 
+              Detection
+  Yang (7+):  Strength, Might, Constitution, Resistance, Stamina
+
+PULCHRITUDE
+  Yin (1-2):  Charming, Seductive, Persuasive, Creativity, Humorous
+  Yang (7+):  Terrifying, Intimidation, Obstinance, Factual, Critical
+
+TEMPERAMENT
+  Yin (1-2):  Relaxed, Level-Headed, Cool, Smooth, Fun-loving
+  Yang (7+):  Focused, Competitive, Ambition, Tireless, Steadfast, Serious
+
+REPUTATION
+  Yin (1-2):  Incognito, Unrecognizeable, Blends in to a crowd, 
+              Impressing Others
+  Yang (7+):  (In)famous, Recognizeable, Popular, Stands out, 
+              Calling in Favors
+
+Assigning a low rolling dice (like the D4) to an attribute represents a heavy 
+lean towards its Yin side, whereas assigning a high rolling dice (like the 
+D12) represents leaning it towards its Yang side. And of course the D8 is in 
+the middle of the two, representing the most balanced of their five attributes.
+
+CHARACTER DESCRIPTION
+---------------------
+Players should write a short Description of their character's appearance, for 
+future reference.
+
+Characters should have Motivations: what drives them? What are their goals? 
+What are they chasing?
+
+Conversely, player's should also think up at least one or two Fears their 
+character has. What are they worried about? What makes them anxious? Do they 
+perhaps have a phobia, or something that grosses them out?
+
+Players are encouraged to note down a couple Quirks for their character. What 
+are random interesting facts about their character that make them unique?
+
+CAPABILITIES
+------------
+To individuate further, new Characters are assigned 2 Capabilities. A 
+Capability represents a non-consumable and specific type of skill, item, or 
+defining feature they possess. Examples would include something like singing, 
+magic armor, a special power, or perhaps a high status lineage they descend 
+from.
+
+One of the capabilities must be Yin, and the other Yang. This represents which 
+direction of Duality the capability leans.
+
+ALIGNMENT
+---------
+Finally, characters are given an Alignment of either -1 (Yin), 0 (Balanced), 
+or +1 (Yang). This represents their overall Duality they bias towards, 
+impacting all attempts at tasks they perform. A character with a -1 (Yin) 
+Alignment has a bias towards calm, collected, and easy going nature, whereas 
+a character with a +1 (Yang) alignment will be overall biased towards 
+energetic, high emotion, and strong feelings.
+
+CALAMITIES
+----------
+At character creation players should write down 2-3 Calamities they think 
+would be fitting for their character's story that they are comfortable with 
+running the risk of happening. A Calamity is a deeply negative event that 
+occurs to the Character and alters their behavior and completely changes their 
+course in life (see "Leave it to Fate" section for details).
+
+
+--------------------------------------------------------------------------------
+ATTEMPTING TASKS
+--------------------------------------------------------------------------------
+
+Whenever a Player wishes for their Character to perform a task that may not 
+necessarily succeed, they must pass a few checks to validate success.
+
+To begin, the Attribute and its Duality are determined, based on how the 
+player expresses their character will perform the task. For example, if they 
+attempt to pick a lock with a lockpick (a fine motor skill involving 
+dexterity), that would be a Yin Alacrity task they are attempting.
+
+The Player may then choose one of three ways to attempt the task. They can 
+Spend their Dice, use their Passive Score, or Leave it to Fate (see section 
+"Leave it to Fate").
+
+SPENDING DICE
+-------------
+Spending their Dice involves rolling the associated Dice with their Attribute. 
+The result of this roll constitutes their Base Score. Once they have spent a 
+Dice, they cannot spend it again until it is Recharged (see the section 
+"Recharging Dice").
+
+PASSIVE SCORE
+-------------
+If they wish to use their Passive Score instead of Spending their Dice (or 
+they no longer have the dice to spend), they will look up the "Passive Score" 
+value on their character sheet and use that as their Base Score instead.
+
+The Passive Scores are:
+  D4  = 1
+  D6  = 4
+  D8  = 5
+  D10 = 5
+  D12 = 6
+
+APPLYING BONUSES
+----------------
+Whether they choose to Spend their Dice or use their Passive Score, everyone 
+at the table will collectively agree if any of the Character's Capabilities 
+are reasonably applicable to this Task, for better or for worse. Only one 
+Capability can be selected. If multiple are applicable, players should come to 
+a reasonable conclusion about which is the most applicable. A Yin capability 
+confers a -1 applied to their Base Score, whereas a Yang skill adds a +1 
+instead. The Character's Alignment is added to the score in the same way.
+
+DETERMINING SUCCESS
+-------------------
+The final value of this result is their Final Score, and it must be 2 or less 
+to succeed at a Yin task, or a 7 or greater to succeed at a Yang task.
+
+
+EXAMPLE: ATTEMPTING A TASK
+---------------------------
+Alex: Alright, I think I'm going to have my character, Jerome, attempt to 
+pick the lock on the treasure chest.
+
+Charlie (Mediator): Alrighty, well I think Lockpicking very much sounds like 
+a fine motor skill that takes patience and dexterity, so lets call that a Yin 
+Alacrity roll.
+
+Alex: For sure, I still have my Alacrity dice and its a D4, so I think it's 
+high time I spend it.
+
+Riley: Hey, didn't you also give Jerome Metallurgy as their Yin skill? I 
+think it's reasonable that it would apply to lockpicking, lots of lockpicks 
+start out as blacksmiths.
+
+Charlie: I agree, I think that can apply.
+
+Alex: Okay cool, Jerome has a Yang alignment so that'll cancel that out for 
+this case, leaving me with a neutral +0 bonus. Should be a 50/50 chance I 
+suceed.
+
+<Alex Rolls a 2 on their D4>
+
+Charlie: Nice, you successfully are able to apply your metallurgy knowledge 
+and pick the lock, the treasure chest pops open!
+
+
+--------------------------------------------------------------------------------
+LEAVE IT TO FATE (LUCK ROLLS)
+--------------------------------------------------------------------------------
+
+Alternatively, a Player can choose to Leave it to Fate by rolling with Luck, 
+which always uses the D20.
+
+Luck rolls do not gain any Yin nor Yang bonuses. Failure is determined by 
+rolling a 10 or less, and success an 11 or higher. It is purely a 50/50 chance 
+of failure/success.
+
+Note that any Luck related tasks (like gambling or anything else that is truly 
+up to chance) should only use a Luck Roll instead of any of the five 
+Attributes, as there is no skill involved in such tasks.
+
+LUCK ROLL RESULTS
+-----------------
+The D20 Luck roll has the following outcomes:
+
+  1       = CALAMITY (Burn a Calamity, Shift your Attributes)
+  2-5     = CRITICAL FAILURE (Additional Penalty)
+  6-10    = FAILURE
+  11-15   = SUCCESS
+  16-19   = CRITICAL SUCCESS (Extra Bonus)
+  20      = MIRACLE (Progress your character to a new Milestone)
+
+If the player uses a Luck Roll as a substitute for an actual Yin or Yang 
+related task, they run the risk of a Critical Failure (Rolling a 2 to 5) or 
+worse, a Calamity can befall them (Rolling a 1).
+
+Inversely though, they can achieve a Critical Success (Rolling 16 to 19), or 
+a Miracle (Rolling 20).
+
+CRITICAL FAILURES
+-----------------
+Critical Failures incur an additional penalty, typically some form of small 
+penalizing downside to the environment or character. An example would be 
+breaking one's tool when trying to perform a craft.
+
+CALAMITIES
+----------
+Worse yet is a Calamity, which is a deeply negative event that occurs to the 
+Character. It alters their behavior and completely changes their course in 
+life. When a Calamity occurs, the Player must look at their character sheet 
+and shift all their attributes either 1 slot up or 1 slot down, representing 
+a disruption to their characters balance and duality. For example if they 
+choose to shift slots up, their D4 Attribute would become their D6, their D6 
+becomes their D8, and so on. Furthermore their D12 Attribute would "wrap 
+around" back to the bottom, becoming their new D4.
+
+Finally, a character that has had a calamity befall them is Out of Luck, and 
+cannot use Luck Rolls for the rest of the session.
+
+CRITICAL SUCCESSES
+------------------
+A Critical Success grants an additional minor boon that may occur, perhaps an 
+additional clue to the story they uncover, or completing the task much faster 
+than usual.
+
+MIRACLES
+--------
+Conversely, if the Luck roll achieves a Miracle (a roll of exactly 20), the 
+character receives some form of critical advancement in their personal 
+storyline. This should relate to their Motivations in some manner. Whatever 
+is chosen, it should be a substantial Milestone for their character's progress 
+towards their personal goals. As an additional bonus, the player may choose to 
+optionally Shift their character stats up or down in the same manner as a 
+Calamity, if they wish.
+
+
+--------------------------------------------------------------------------------
+CONSUMABLES
+--------------------------------------------------------------------------------
+
+Sometimes, during the story (especially as a reward for great efforts), 
+characters will receive some form of Consumable. A consumable represents an 
+effect (much like a Capability) they can utilize to gain a needed extra bonus 
+on one of their attempts at tasks.
+
+Typically Consumables are one time use, and once Consumed they cannot be used 
+again. However this is not a mandatory restriction and Mediators are welcome 
+to come up with clever and interesting Consumables for players to enjoy. An 
+example of a more interesting restriction could perhaps be a Consumable that 
+can be used three times, but with some form of downside that must be carefully 
+considered before using.
+
+Examples could include: A magic potion, a favor from someone they can call in, 
+or perhaps a bit of gained reputation they can lean on (but not abuse).
+
+WHEN TO USE CONSUMABLES
+-----------------------
+Players have two opportunities during Attempting a Task in which they can 
+decide if they wish to Consume a Consumable to gain its bonus. Both only apply 
+to when they are Attempting a Yin or Yang Task; Consumables cannot be used on 
+Luck rolls.
+
+The first opportunity is before they Spend a Dice. If they spend their 
+Consumable before the dice roll, they can choose to pre-emptively gain a -2 
+Yin Bonus or +2 Yang Bonus, effectively double its normal bonus.
+
+The second opportunity is after they have Spent a Dice or used their Passive 
+Score for Attempting a Task, and have finished calculating their Final Score. 
+If they still choose to use a Consumable at this stage to get a last bit of 
+extra boost to turn a Failure into a Success, they may only get a -1 Yin bonus 
+or +1 Yang bonus at this stage.
+
+ALTERNATIVE CONSUMABLES
+-----------------------
+Mediators may also choose to grant alternative Consumables that can 
+conditionally Recharge dice or perform other interesting effects, like letting 
+a player substitute one of their Attributes for another for Attempting a Task. 
+Feel free to get really creative!
+
+
+--------------------------------------------------------------------------------
+RECHARGING DICE
+--------------------------------------------------------------------------------
+
+Whenever an effect causes players to Recharge Dice, the respective spent dice 
+are returned back to them, allowing the player to spend them once again.
+
+At the beginning of a Session, all player's dice are Recharged.
+
+Whenever all the dice of every Player's Characters in a session have been 
+collectively spent, everyone recharges all their dice. This should be 
+represented narratively as everyone taking some form of short break, or 
+perhaps finding somewhere to rest. When everyone's quantities of remaining 
+dice are beginning to dwindle, this should signal to the players to begin 
+leaning the narrative towards some form of time of rest for everyone. Perhaps 
+finding a local Inn or Tavern to rest at, or finding somewhere to set up camp.
+
+Players with a remaining dice can choose to spend it on a solitary final task 
+in order to satisfy the conditions to recharge everyone's dice. Examples could 
+include researching something important, studying, or perhaps preparing for 
+the next day.
+
+Note that though the above examples can be used as a way to "burn" up leftover 
+dice for a player who has many leftover, it is recommended that players avoid 
+using this as a means to enable certain players to hog the spotlight too much 
+in the narrative, then have other's use their numerous leftover dice on 
+solitary tasks instead of participating. A balanced group with an observant 
+Mediator should try and make sure everyone feels included, and a player with 
+many extra dice is typically an indicator that the spotlight is not being 
+shared equally.
+
+An excellent benchmark to roughly aim for is every player to have 1 dice 
+leftover after the proverbial dust has settled and it is time for rest, 
+allowing everyone to have some form of final solitary narrative event before 
+recharging.
+
+
+EXAMPLE: RECHARGING DICE
+-------------------------
+Charlie (Mediator): Alright, how are we all doing on our dice pools?
+
+Avery: That was my last one I just spent, so my character is pretty beat, 
+"I think it's about time we find somewhere to set up camp" they comment to 
+the group.
+
+Riley: I have just have on left, my D8, so my character agrees with Avery's, 
+it's getting pretty late.
+
+Alex: Yeah I also just have my D6 left, so I think Jerome starts keeping an 
+eye out for a good spot.
+
+Charlie: Alright! So you in fact spot a pretty decent little grove just off 
+trail, looks like the perfect spot to hunker down for the night.
+
+Riley: Okay cool, well since I may as well, is it fine if my character spends 
+their last D8 further studying that spell they've been investigating the past 
+few nights?
+
+Charlie: For sure, let's have that as a Yang roll as usual.
+
+Alex: I think Jerome is going to do some light training with their last bit 
+of energy for the night, to try and improve their techniques.
+
+Charlie: No problem, lets give that a Yang roll as well.
+
+Riley: Oh hey! I finally passed the check!
+
+Alex: Me too!
+
+Charlie: Awesome, you both finally make progress on your work that night, we 
+can get to that in a second. Also, everyone's pools are spent now so you all 
+get a good nights rest and recharge your dice pools!
+
+
+================================================================================
+CHARACTER SHEET TEMPLATE
+================================================================================
+
+Player Name: _____________________
+Character Name: __________________
+
+DESCRIPTION
+___________________________________________________________________________
+___________________________________________________________________________
+___________________________________________________________________________
+
+MOTIVATIONS
+___________________________________________________________________________
+___________________________________________________________________________
+
+FEARS
+___________________________________________________________________________
+___________________________________________________________________________
+
+QUIRKS
+___________________________________________________________________________
+___________________________________________________________________________
+
+ALIGNMENT:  [ ] -1 (Yin)    [ ] 0 (Balanced)    [ ] +1 (Yang)
+
+
+ATTRIBUTES (Assign D4, D6, D8, D10, D12)
+-----------------------------------------
+                      Dice    Passive
+Alacrity            [    ]    [     ]
+Vigor               [    ]    [     ]
+Pulchritude         [    ]    [     ]
+Temperament         [    ]    [     ]
+Reputation          [    ]    [     ]
+Luck                [ D20]
+
+
+CAPABILITIES
+------------
+Yin Capability:  _________________________________________________
+
+Yang Capability: _________________________________________________
+
+
+CALAMITIES
+----------
+• _______________________________________________________________
+• _______________________________________________________________
+• _______________________________________________________________
+
+
+CONSUMABLES
+-----------
+• _______________________________________________________________
+• _______________________________________________________________
+• _______________________________________________________________
+• _______________________________________________________________
+• _______________________________________________________________
+• _______________________________________________________________
+
+
+================================================================================
