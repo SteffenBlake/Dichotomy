@@ -54,15 +54,15 @@ Each attribute can be expressed through either its Yin or Yang aspect:
 
 ### Assigning Dice
 
-Players assign one of each of five polyhedral dice to their five attributes: {dicier:4}, {dicier:6}, {dicier:8}, {dicier:D10}, and {dicier:D12}. Each attribute gets exactly one die.
+Players assign one of each of five polyhedral dice to their five attributes: {dicier:d4}, {dicier:d6}, {dicier:d8}, {dicier:d10}, and {dicier:d12}. Each attribute gets exactly one die.
 
-For each die, the player chooses a **permanent bonus modifier** (any number, though -12 to +12 is recommended). This bonus is permanently tied to that die and attribute combination. For example, if you assign {dicier:4} with a +10 bonus to Alacrity, every time you use Alacrity you roll {dicier:4}+10 (rolling 13-16). If you assign {dicier:8} with -3 to Vigor, every time you use Vigor you roll {dicier:8}-3 (rolling -2 to 5).
+For each die, the player chooses a **permanent bonus modifier** (any number, though -12 to +12 is recommended). This bonus is permanently tied to that die and attribute combination. For example, if you assign {dicier:d4} with a +10 bonus to Alacrity, every time you use Alacrity you roll {dicier:d4}+10 (rolling 13-16). If you assign {dicier:d8} with -3 to Vigor, every time you use Vigor you roll {dicier:d8}-3 (rolling -2 to 5).
 
 Each die-attribute-modifier combination represents how your character approaches that aspect of their capabilities.
 
 This creates meaningful choices:
-- Smaller dice ({dicier:4}) can guarantee success in narrow ranges but are inflexible
-- Larger dice ({dicier:D12}) cover wider ranges but succeed less reliably at any specific target
+- Smaller dice ({dicier:d4}) can guarantee success in narrow ranges but are inflexible
+- Larger dice ({dicier:d12}) cover wider ranges but succeed less reliably at any specific target
 
 ### Character Details
 
@@ -84,7 +84,7 @@ Characters start with **1 Aspect**. An Aspect is a specific personal trait, item
 
 You may **spend** an applicable Aspect (if you can narratively justify how it applies) in the following ways:
 
-**Before making a roll**: Spend an Aspect to **invert** that die's bonus for the roll ({dicier:8}+10 becomes {dicier:8}-10), allowing you to use a die outside its normal range.
+**Before making a roll**: Spend an Aspect to **invert** that die's bonus for the roll ({dicier:d8}+10 becomes {dicier:d8}-10), allowing you to use a die outside its normal range.
 
 **After rolling a critical failure**: Spend an Aspect to **negate** the critical failure, turning it into a normal failure instead.
 
@@ -178,7 +178,7 @@ Once spent, a die cannot be used again until recharged.
 
 **Example:**
 
-*Alex*: I'll use my Yang Pulchritude to intimidate them. That's my {dicier:8}+10, so I'm rolling for 11-18.
+*Alex*: I'll use my Yang Pulchritude to intimidate them. That's my {dicier:d8}+10, so I'm rolling for 11-18.
 
 *Alex*: [rolls] 6... plus 10 is 16. That's within Large Yang (13-16)!
 
@@ -210,13 +210,13 @@ Each challenge can only be attempted once - no do-overs! The narrative must move
 
 *Director*: You're trying to disable the alarm system before the guards return. Medium Yin magnitude.
 
-*Jordan*: I'll use my Yin Alacrity - that's {dicier:D10}-8, so rolling -8 to 2.
+*Jordan*: I'll use my Yin Alacrity - that's {dicier:d10}-8, so rolling -8 to 2.
 
 *Jordan*: [rolls 9] That's 9 minus 8... equals 1. That's outside Medium Yin (-8 to -5), so I fail.
 
 *Director*: The wiring is more complex than you thought. You hear footsteps approaching - you'll need to find another way in. 3 exp though!
 
-*Sam*: Later, trying to climb the tower wall - that's Huge Yang. I'm using Yang Vigor, my {dicier:4}+15.
+*Sam*: Later, trying to climb the tower wall - that's Huge Yang. I'm using Yang Vigor, my {dicier:d4}+15.
 
 *Sam*: [rolls 3] That's 3 plus 15... 18. Oh no, that's ±17 or higher - critical failure!
 
@@ -224,7 +224,7 @@ Each challenge can only be attempted once - no do-overs! The narrative must move
 
 ### Luck Rolls
 
-As a last resort, you may roll {dicier:D20} for **Luck** instead of spending an attribute die. This is a pure pass/fail hail mary:
+As a last resort, you may roll {dicier:d20} for **Luck** instead of spending an attribute die. This is a pure pass/fail hail mary:
 
 - **1**: **Calamity** - See Calamities below
 - **2-10**: Failure (gain 3 exp, no saga point change)
@@ -241,7 +241,7 @@ Use Luck rolls sparingly - they represent pure chance when you have no relevant 
 
 *Director*: You could try Luck?
 
-*Riley*: Yeah, I have to. [rolls {dicier:D20}] ...13! That's a success!
+*Riley*: Yeah, I have to. [rolls {dicier:d20}] ...13! That's a success!
 
 *Director*: One of the council members remembers your family name and vouches for you. You're granted an audience. 1 exp and a saga point!
 
@@ -252,8 +252,8 @@ When you roll a **1** on a Luck roll, a Calamity occurs. This represents a deepl
 1. One of your pre-written Calamities comes true (see Character Creation - Calamities)
 2. Choose to shift your dice assignments either **up** or **down**
 3. Each attribute receives a different die (with its bonus):
-   - **Shifting up**: The attribute that had {dicier:4} now gets {dicier:6}, the one that had {dicier:6} gets {dicier:8}, {dicier:8}→{dicier:D10}, {dicier:D10}→{dicier:D12}, and {dicier:D12} wraps around to get {dicier:4}
-   - **Shifting down**: The attribute that had {dicier:D12} now gets {dicier:D10}, {dicier:D10}→{dicier:8}, {dicier:8}→{dicier:6}, {dicier:6}→{dicier:4}, and {dicier:4} wraps around to get {dicier:D12}
+   - **Shifting up**: The attribute that had {dicier:d4} now gets {dicier:d6}, the one that had {dicier:d6} gets {dicier:d8}, {dicier:d8}→{dicier:d10}, {dicier:d10}→{dicier:d12}, and {dicier:d12} wraps around to get {dicier:d4}
+   - **Shifting down**: The attribute that had {dicier:d12} now gets {dicier:d10}, {dicier:d10}→{dicier:d8}, {dicier:d8}→{dicier:d6}, {dicier:d6}→{dicier:d4}, and {dicier:d4} wraps around to get {dicier:d12}
    - Each die brings its permanent bonus to its new attribute
 4. You become **Out of Luck** and cannot use Luck rolls for the rest of the Saga
 5. Gain 3 experience points
@@ -264,7 +264,7 @@ Calamities represent how disaster disrupts your character's balance and approach
 
 **Example:**
 
-*Alex*: All my dice are spent. I'm trying to grab the artifact before the temple collapses. Rolling Luck... [rolls {dicier:D20}] ...1.
+*Alex*: All my dice are spent. I'm trying to grab the artifact before the temple collapses. Rolling Luck... [rolls {dicier:d20}] ...1.
 
 *Director*: Oh no! Which Calamity is it?
 
@@ -465,64 +465,92 @@ ___________________________________________________________________________
 ### Quirks
 ___________________________________________________________________________
 
-### Attributes
+### Attributes & Dice
 
-| Attribute   | Die | Bonus | Range |
-|-------------|-----|-------|-------|
-| Alacrity    |     | +/-   |       |
-| Vigor       |     | +/-   |       |
-| Pulchritude |     | +/-   |       |
-| Temperament |     | +/-   |       |
-| Reputation  |     | +/-   |       |
+| Attribute   | Die | Bonus | Range | Spent? |
+|-------------|-----|-------|-------|--------|
+| Alacrity    |     | +/-   |       | ☐      |
+| Vigor       |     | +/-   |       | ☐      |
+| Pulchritude |     | +/-   |       | ☐      |
+| Temperament |     | +/-   |       | ☐      |
+| Reputation  |     | +/-   |       | ☐      |
+
+**Luck Die**: {dicier:d20} ☐ Spent  |  ☐ Out of Luck (rest of Saga)
 
 ### Aspects
 
-**Starting Aspect**: _________________________________________________
+| # | Aspect | Spent? |
+|---|--------|--------|
+| 1 | _________________________________________________ | ☐ |
+| 2 | _________________________________________________ | ☐ |
+| 3 | _________________________________________________ | ☐ |
+| 4 | _________________________________________________ | ☐ |
+| 5 | _________________________________________________ | ☐ |
+| 6 | _________________________________________________ | ☐ |
 
-**Additional Aspects** (gained through Thread progression):
-- ___________________________________________________________________
-- ___________________________________________________________________
-- ___________________________________________________________________
-- ___________________________________________________________________
-- ___________________________________________________________________
+*Aspects recharge at the start of each Volume*
 
 ### Calamities
 
-1. ___________________________________________________________________
-2. ___________________________________________________________________
-3. ___________________________________________________________________
+| # | Calamity | Active? |
+|---|----------|---------|
+| 1 | _________________________________________________ | ☑ |
+| 2 | _________________________________________________ | ☑ |
+| 3 | _________________________________________________ | ☑ |
+| 4 | _________________________________________________ (replacement) | ☐ |
+| 5 | _________________________________________________ (replacement) | ☐ |
+
+*When a Calamity triggers, uncheck it and write a new one*
 
 ### Threads
 
-1. ___________________________________________________________________
-2. ___________________________________________________________________
-3. ___________________________________________________________________
-4. ___________________________________________________________________
+| # | Thread Question | Progress |
+|---|-----------------|----------|
+| 1 | _________________________________________________ | ___/20 exp |
+| 2 | _________________________________________________ | ___/20 exp |
+| 3 | _________________________________________________ | ___/20 exp |
+| 4 | _________________________________________________ | ___/20 exp |
 
-### Progression Tracker
-
-**Experience Points**: _____ / 20
+**Total Experience**: _____ exp
 
 **Threads Completed**: _____
 
-### Story Points (per Volume)
+### Story Points
 
-Current: _____ / 12
+☐ ☐ ☐ ☐ ☐ ☐ ☐ ☐ ☐ ☐ ☐ ☐  (12 total, recharge each Volume)
 
 ---
 
-## Group Tracking (Shared by All Players)
+## Group Tracking Sheet (Shared by All Players)
 
 ### Current Saga
 
 **Saga Question**: _____________________________________________________
 
-**Saga Points**: _____ / 50
+**Saga Progress**: (check off as you gain points, cross out when lost)
+
+☐☐☐☐☐ ☐☐☐☐☐ (10)  
+☐☐☐☐☐ ☐☐☐☐☐ (20)  
+☐☐☐☐☐ ☐☐☐☐☐ (30)  
+☐☐☐☐☐ ☐☐☐☐☐ (40)  
+☐☐☐☐☐ ☐☐☐☐☐ (50) ← **Climactic End triggers!**
 
 ### Group Aspects
 
-**Group Aspects** (gained from completed Sagas, usable once per Volume by any player):
-- ___________________________________________________________________
-- ___________________________________________________________________
-- ___________________________________________________________________
-- ___________________________________________________________________
+| # | Group Aspect | Used This Volume? |
+|---|--------------|-------------------|
+| 1 | ___________________________________________ | ☐ |
+| 2 | ___________________________________________ | ☐ |
+| 3 | ___________________________________________ | ☐ |
+| 4 | ___________________________________________ | ☐ |
+| 5 | ___________________________________________ | ☐ |
+
+*Group Aspects recharge (can be used again) at the start of each Volume*
+
+### Completed Sagas
+
+| # | Saga Question | Winner (chose Group Aspect) |
+|---|---------------|------------------------------|
+| 1 | ______________________________ | _____________ |
+| 2 | ______________________________ | _____________ |
+| 3 | ______________________________ | _____________ |
