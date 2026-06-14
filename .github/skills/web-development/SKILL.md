@@ -252,7 +252,7 @@ License: https://raw.githubusercontent.com/SteffenBlake/Dichotomy/refs/heads/mai
 2. **Check GitHub Deployment**
    - After pushing changes, navigate to repository Actions tab
    - Verify the deployment workflow succeeds
-   - Visit the live site at `https://steffenblake.github.io/Dichotomy/`
+   - Visit the live site at `https://dichotomy.technically.fun`
    - Test all functionality on the deployed site
 
 3. **Update Skill Files**

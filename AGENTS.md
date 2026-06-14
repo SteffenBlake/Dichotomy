@@ -20,7 +20,7 @@ Located in `.github/skills/`:
 
 ## Quick Reference
 
-- **Website URL**: `steffenblake.github.io/Dichotomy`
+- **Website URL**: `https://dichotomy.technically.fun`
 - **License**: Attribution-NonCommercial-NoDerivatives 4.0 International
 - **License URL**: https://raw.githubusercontent.com/SteffenBlake/Dichotomy/refs/heads/main/LICENSE
 

@@ -49,7 +49,7 @@ The repository includes a GitHub Actions workflow that automatically builds and 
    - Build the HTML from `content.md`
    - Apply cache busting to CSS
    - Deploy to GitHub Pages
-5. Your site will be published at `https://steffenblake.github.io/Dichotomy/`
+5. Your site will be published at `https://dichotomy.technically.fun`
 
 ## Customization
 
