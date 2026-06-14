@@ -54,23 +54,23 @@ Each attribute can be expressed through either its Yin or Yang aspect:
 
 ### Assigning Dice
 
-Players assign dice to their five attributes, using each die size exactly once: one {dicier:d4}, one {dicier:d6}, one {dicier:d8}, one {dicier:d10}, and one {dicier:d12}. Each attribute gets exactly one die, and you cannot use the same die size for multiple attributes.
+Players assign dice to their five attributes, using each die size exactly once: one {dicier:D 4}, one {dicier:D 6}, one {dicier:D 8}, one {dicier:D 1 0}, and one {dicier:D 1 2}. Each attribute gets exactly one die, and you cannot use the same die size for multiple attributes.
 
 For each die, the player chooses a **permanent bonus modifier**. Each die has its own allowed modifier range:
 
-- {dicier:d4}: -13 to +12
-- {dicier:d6}: -11 to +10
-- {dicier:d8}: -9 to +8
-- {dicier:d10}: -7 to +6
-- {dicier:d12}: -5 to +4
+- {dicier:D 4}: -13 to +12
+- {dicier:D 6}: -11 to +10
+- {dicier:D 8}: -9 to +8
+- {dicier:D 1 0}: -7 to +6
+- {dicier:D 1 2}: -5 to +4
 
-This bonus is permanently tied to that die and attribute combination. For example, if you assign {dicier:d4} with a +10 bonus to Alacrity, every time you use Alacrity you roll {dicier:d4}+10 (rolling 11-14). If you assign {dicier:d8} with -3 to Vigor, every time you use Vigor you roll {dicier:d8}-3 (rolling -2 to 5).
+This bonus is permanently tied to that die and attribute combination. For example, if you assign {dicier:D 4} with a +10 bonus to Alacrity, every time you use Alacrity you roll {dicier:D 4}+10 (rolling 11-14). If you assign {dicier:D 8} with -3 to Vigor, every time you use Vigor you roll {dicier:D 8}-3 (rolling -2 to 5).
 
 Each die-attribute-modifier combination represents how your character approaches that aspect of their capabilities.
 
 This creates meaningful choices:
-- Smaller dice ({dicier:d4}) can guarantee success in narrow ranges but are inflexible
-- Larger dice ({dicier:d12}) cover wider ranges but succeed less reliably at any specific target
+- Smaller dice ({dicier:D 4}) can guarantee success in narrow ranges but are inflexible
+- Larger dice ({dicier:D 1 2}) cover wider ranges but succeed less reliably at any specific target
 
 ### Character Details
 
@@ -90,7 +90,7 @@ Characters start with **1 Aspect**. An Aspect is a specific personal trait, item
 - "Never breaks a promise"
 - "Knows the old smuggler routes"
 
-You may **spend** an applicable Aspect (if you can narratively justify how it applies) **before making a roll** to **invert** that die's bonus for the roll ({dicier:d8}+10 becomes {dicier:d8}-10), allowing you to use a die outside its normal range.
+You may **spend** an applicable Aspect (if you can narratively justify how it applies) **before making a roll** to **invert** that die's bonus for the roll ({dicier:D 8}+10 becomes {dicier:D 8}-10), allowing you to use a die outside its normal range.
 
 All spent Aspects recharge at the start of each Volume.
 
@@ -349,7 +349,7 @@ Once spent, a die cannot be used again until recharged.
 
 **Example:**
 
-*Alex*: I'll use my Yang Pulchritude to intimidate them. That's my {dicier:d8}+10, so I'm rolling for 11-18.
+*Alex*: I'll use my Yang Pulchritude to intimidate them. That's my {dicier:D 8}+10, so I'm rolling for 11-18.
 
 *Alex*: [rolls] 6... plus 10 is 16. That's within Large Yang (13-16)!
 
@@ -375,7 +375,7 @@ Each challenge can only be attempted once - no do-overs! The narrative must move
 
 *Director*: You're trying to disable the alarm system before the guards return. Medium Yin magnitude.
 
-*Jordan*: I'll use my Yin Alacrity - that's {dicier:d10}-6, so rolling -5 to 4.
+*Jordan*: I'll use my Yin Alacrity - that's {dicier:D 1 0}-6, so rolling -5 to 4.
 
 *Jordan*: [rolls 9] That's 9 minus 6... equals 3. That's outside Medium Yin (-8 to -5), so I fail.
 
@@ -383,7 +383,7 @@ Each challenge can only be attempted once - no do-overs! The narrative must move
 
 ### Luck Rolls
 
-You may roll {dicier:d20} for **Luck** instead of spending an attribute die. This is a pure pass/fail gamble that ignores magnitude entirely:
+You may roll {dicier:D 2 0} for **Luck** instead of spending an attribute die. This is a pure pass/fail gamble that ignores magnitude entirely:
 
 - **1**: **Calamity** - See Calamities below
 - **2-10**: Failure (gain 3 exp, no saga point change)
@@ -398,7 +398,7 @@ You can choose to use Luck even when you have attribute dice available, though i
 
 *Director*: You could try Luck?
 
-*Riley*: Yeah, I have to. [rolls {dicier:d20}] ...13! That's a success!
+*Riley*: Yeah, I have to. [rolls {dicier:D 2 0}] ...13! That's a success!
 
 *Director*: One of the council members remembers your family name and vouches for you. You're granted an audience. 1 exp and a saga point!
 
@@ -417,7 +417,7 @@ Calamities represent how disaster disrupts your character's balance and approach
 
 **Example:**
 
-*Alex*: All my dice are spent. I'm trying to grab the artifact before the temple collapses. Rolling Luck... [rolls {dicier:d20}] ...1.
+*Alex*: All my dice are spent. I'm trying to grab the artifact before the temple collapses. Rolling Luck... [rolls {dicier:D 2 0}] ...1.
 
 *Director*: Oh no! Which Calamity is it?
 
@@ -524,7 +524,7 @@ ___________________________________________________________________________
 | Temperament |     | +/-   |       | ☐      |
 | Reputation  |     | +/-   |       | ☐      |
 
-**Luck Die**: {dicier:d20} ☐ Spent  |  ☐ Out of Luck (rest of Saga)
+**Luck Die**: {dicier:D 2 0} ☐ Spent  |  ☐ Out of Luck (rest of Saga)
 
 ### Aspects
 
