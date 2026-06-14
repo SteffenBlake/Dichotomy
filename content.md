@@ -33,24 +33,24 @@ Characters have five core attributes, each representing different aspects of cap
 Each attribute can be expressed through either its Yin or Yang aspect:
 
 **Alacrity**
-- Yin: Dexterity, fine motor skills, stealth, craftmanship, sleight of hand, aiming
-- Yang: Speed, acrobatics, reflexes, dodging, performing, throwing distance
+- Yin: Precision, fine motor control, careful aim, lockpicking, stealth, delicate craftsmanship, balance
+- Yang: Speed, quick reflexes, acrobatics, parkour, catching, dodging, rapid reactions
 
 **Vigor**
-- Yin: Squeezing through gaps, sensitivity, awareness, insight, detection
-- Yang: Strength, might, constitution, resistance, stamina
+- Yin: Endurance, stamina, resilience, withstanding pain, constitution, recovery, toughing it out
+- Yang: Explosive strength, jumping, sprinting, lifting, throwing, grappling, tackling, pushing, pulling
 
 **Pulchritude**
-- Yin: Charming, seductive, persuasive, creativity, humorous
-- Yang: Terrifying, intimidation, obstinance, factual, critical
+- Yin: Subtle charm, reading people, empathy, smooth negotiation, putting others at ease, diplomatic persuasion
+- Yang: Commanding presence, intimidation, inspiring speeches, rallying crowds, bold declarations, confrontational debate, distracting
 
 **Temperament**
-- Yin: Relaxed, level-headed, cool, smooth, fun-loving
-- Yang: Focused, competitive, ambitious, tireless, steadfast, serious
+- Yin: Staying calm under pressure, patience, adaptability, emotional regulation, going with the flow, strategic thinking
+- Yang: Intense focus, competitive drive, unwavering determination, pushing through mental fatigue, passionate commitment, tunnel vision
 
 **Reputation**
-- Yin: Incognito, unrecognizable, blends in to a crowd, impressing others
-- Yang: (In)famous, recognizable, popular, stands out, calling in favors
+- Yin: Anonymity, going unnoticed, secret contacts, underground networks, blending into any social circle, working from shadows
+- Yang: Fame, name recognition, calling in favors, commanding respect, being remembered, public influence
 
 ### Assigning Dice
 
@@ -63,6 +63,8 @@ Each die-attribute-modifier combination represents how your character approaches
 This creates meaningful choices:
 - Smaller dice ({dicier:d4}) can guarantee success in narrow ranges but are inflexible
 - Larger dice ({dicier:d12}) cover wider ranges but succeed less reliably at any specific target
+
+**⚠️ Warning:** Modifiers above ±12 risk frequent critical failures! Remember that rolls of ±17 or beyond critically fail. For example, a {dicier:d4}+15 rolls 16-19, which critically fails 75% of the time. A {dicier:d6}+13 rolls 14-19, critically failing 50% of the time. Keep modifiers within the recommended -12 to +12 range to avoid building a character who constantly triggers Calamities and loses saga points for the group.
 
 ### Character Details
 
@@ -103,14 +105,14 @@ As you gain experience during play, you can spend it to progress your Threads (s
 
 ### Calamities
 
-During character creation, write down **2-3 Calamities** - deeply negative events that could befall your character and fundamentally alter their life course. These should be events you and all other players at the table are comfortable with potentially happening to your character. Examples:
+During character creation, write down **2 Calamities** - deeply negative events that could befall your character and fundamentally alter their life course. These should be events you and all other players at the table are comfortable with potentially happening to your character. Examples:
 - "My mentor's killer finds me"
 - "I lose my family's ancestral blade"
 - "The guild discovers my secret"
 - "My closest friend betrays me"
 - "I'm forced to break my sacred vow"
 
-Calamities are triggered during moments of extreme misfortune (see Luck Rolls below). When one occurs, one of your written Calamities comes true, you shift your dice assignments, and you write a new Calamity to replace it.
+Calamities are triggered during moments of extreme misfortune (see Luck Rolls below). When one occurs, one of your written Calamities comes true, you swap any 2 of your dice (with their bonuses) between attributes, and you write a new Calamity to replace it.
 
 *Note: If your Calamities involve sensitive themes or other players' characters, discuss them with the group during character creation to ensure everyone is comfortable with the direction your story might take.*
 
@@ -118,13 +120,13 @@ Calamities are triggered during moments of extreme misfortune (see Luck Rolls be
 
 ### Story Points
 
-Each player starts every Volume with **12 Story Points**. These are used to bid for narrative control and break voting ties. At the start of each new Volume, all players reset to 12 Story Points regardless of how many they had remaining from the previous Volume.
+Each player starts every Volume with **12 Story Points**. These are used to bid for narrative control and challenge magnitude proposals. At the start of each new Volume, all players reset to 12 Story Points regardless of how many they had remaining from the previous Volume. This encourages players to balance directing chapters with playing their characters - if you spend all your points early, you'll focus on earning XP instead.
 
 ### Volumes and Chapters
 
 A **Volume** consists of **10 Chapters**. At the start of each Volume, all players' Story Points recharge. Volumes are part of larger **Sagas** (see Sagas and Climactic Ends below).
 
-Each **Chapter** is a scene or story segment containing exactly **4 Challenges**.
+Each **Chapter** is a scene or story segment containing exactly **4 Challenges**. This fixed structure creates predictable pacing and helps players manage their limited dice resources.
 
 **Chapter Examples:**
 - Infiltrating the governor's mansion (challenges: bypassing guards, picking the lock, finding the documents, escaping undetected)
@@ -154,8 +156,8 @@ The Chapter Director has specific narrative authority for the duration of the Ch
 - Narrate how critical failures set back the group's saga progress
 
 **Limitations:**
-- Cannot dictate what player characters think, feel, or do (players control their own characters)
-- Does not have sole authority over magnitude determination (the group votes)
+- Cannot dictate what player characters think, feel, or do (you can narrate what happens TO them as a result of their actions, but not what they choose to do)
+- Does not have sole authority over magnitude determination (players can bid Story Points to challenge)
 - Cannot prevent other players from proposing challenges
 - Should respond to and incorporate player ideas and suggestions
 
@@ -187,7 +189,7 @@ Examples of Saga questions:
 - Saga points cannot go below 0
 - Challenge successes add 1 saga point
 - Critical failures subtract 1 saga point (minimum 0)
-- Calamities subtract 3 saga points (minimum 0)
+- Calamities subtract 3 saga points (minimum 0), except during Raised Stakes chapters
 - Miracles add 3 saga points
 
 ### Raised Stakes
@@ -199,7 +201,7 @@ A Raised Stakes Chapter has special rules:
 - Successes grant **2 experience** instead of 1 (still +1 saga point)
 - Failures grant **4 experience** instead of 3 (still no saga change)
 - **Critical failures trigger a Calamity** in addition to their normal effects (-1 saga point and narrative setback)
-- Players cannot spend experience to progress Threads during this Chapter (wait until the next Chapter)
+- Players cannot spend experience to progress Threads during this Chapter (keep the focus on the high-stakes main plot rather than individual character arcs - spend your XP after)
 - All other rules apply normally (bidding, magnitude voting, dice recharging, etc.)
 
 After completing the Raised Stakes Chapter, the Saga continues normally until reaching 50 saga points.
@@ -293,29 +295,28 @@ For example, a Medium magnitude challenge to get past a guard could be solved by
 
 The approach is up to the player attempting it.
 
-The process:
-1. **Open Vote**: All players vote on the magnitude
-2. If there's a clear majority, that magnitude wins
-3. **If Tied**: Any tied player can spend 1 Story Point to push their choice through
-4. **Multiple Spenders**: If multiple players spend Story Points, the highest magnitude among spenders wins
+**The Bidding Process:**
 
-This encourages creative problem-solving, as ANY character approach works if it narratively makes sense and hits the magnitude.
+1. The **Chapter Director proposes a magnitude** for the challenge
+2. Any player can **bid Story Points** to propose a different magnitude (minimum 1 SP)
+3. To change the magnitude again, the next bid must be **higher** than the previous bid
+4. When no one wants to bid higher, bidding stops
+5. **Only the final winning bidder spends their Story Points**
+6. If no one challenges the Director's proposal, it stands at no cost
+
+This system rewards good Director framing while allowing players to influence difficulty when they feel strongly about it. The escalating cost naturally discourages prolonged arguments.
 
 **Example:**
 
-*Director*: You need to convince the merchant to give you information. What's the magnitude?
+*Director*: You need to convince the merchant to give you information. I think this is Medium magnitude.
 
-*Player 1*: I think Medium.
+*Player 1*: This merchant is notoriously tight-lipped. I think it's Large - bidding 1 Story Point.
 
-*Player 2*: I vote Large - this merchant is notoriously tight-lipped.
+*Player 2*: We've dealt with worse. I say Small - bidding 2 Story Points.
 
-*Player 3*: Medium feels right to me.
+*Player 1*: [considers bidding 3 SP but decides it's not worth it]
 
-*Director*: We've got a tie - two Medium, one Large.
-
-*Player 2*: I'll spend 1 Story Point to push it to Large.
-
-*Director*: Large it is. The merchant crosses their arms suspiciously...
+*Director*: Small it is. Player 2 spends 2 Story Points. The merchant seems more approachable than expected...
 
 ### Making a Roll
 
@@ -350,7 +351,7 @@ Each challenge can only be attempted once - no do-overs! The narrative must move
 
 **Failure** (result outside target magnitude, but not ±17+):
 - You fail the task narratively
-- Gain 3 experience points
+- Gain 3 experience points (only the first 3 failures per player per Volume grant experience; subsequent failures grant 0 exp)
 - No saga point change
 
 **Critical Failure** (result is ±17 or beyond, and you don't spend an Aspect to negate it):
@@ -401,15 +402,11 @@ You can choose to use Luck even when you have attribute dice available, though i
 When you roll a **1** on a Luck roll, a Calamity occurs. This represents a deeply disruptive event that fundamentally alters your character:
 
 1. One of your pre-written Calamities comes true (see Character Creation - Calamities)
-2. Choose to shift your dice assignments either **up** or **down**
-3. Each attribute receives a different die (with its bonus):
-   - **Shifting up**: The attribute that had {dicier:d4} now gets {dicier:d6}, the one that had {dicier:d6} gets {dicier:d8}, {dicier:d8}→{dicier:d10}, {dicier:d10}→{dicier:d12}, and {dicier:d12} wraps around to get {dicier:d4}
-   - **Shifting down**: The attribute that had {dicier:d12} now gets {dicier:d10}, {dicier:d10}→{dicier:d8}, {dicier:d8}→{dicier:d6}, {dicier:d6}→{dicier:d4}, and {dicier:d4} wraps around to get {dicier:d12}
-   - Each die brings its permanent bonus to its new attribute
-4. You become **Out of Luck** and cannot use Luck rolls for the rest of the Saga
-5. Gain 3 experience points
-6. The group loses 3 saga points (minimum 0)
-7. Write a new Calamity to replace the one that occurred
+2. Swap any 2 of your dice (with their bonuses) between attributes
+3. You become **Out of Luck** and cannot use Luck rolls for the rest of the Saga (this prevents players from repeatedly gambling for Miracles, which would trivialize resource management and risk assessment)
+4. Gain 3 experience points
+5. The group loses 3 saga points (minimum 0), except during Raised Stakes chapters
+6. Write a new Calamity to replace the one that occurred
 
 Calamities represent how disaster disrupts your character's balance and approach to the world.
 
@@ -421,9 +418,9 @@ Calamities represent how disaster disrupts your character's balance and approach
 
 *Alex*: "I lose my family's ancestral blade." As I reach for the artifact, the floor gives way - I have to choose between the blade and saving myself. The sword falls into the chasm.
 
-*Director*: Losing that connection to your heritage changes you. Do you shift your dice up or down?
+*Director*: Losing that connection to your heritage changes you. Which two dice are you swapping?
 
-*Alex*: Down. Without that blade, I feel... diminished. Less confident in who I am. [Shifts dice assignments] My new Calamity: "The one who now wields my family's blade finds me."
+*Alex*: I'm swapping my Alacrity and Vigor dice. Without that blade, I feel... diminished. Less confident in who I am. My new Calamity: "The one who now wields my family's blade finds me."
 
 ### Recharging Dice
 
@@ -464,11 +461,11 @@ Interludes provide natural pacing breaks and character development opportunities
 
 After each challenge attempt:
 - **Success**: Gain 1 exp
-- **Failure**: Gain 3 exp (only the first 3 failures per player per Volume grant experience; subsequent failures grant 0 exp)
+- **Failure**: Gain 3 exp (see failure cap in Challenge Outcomes section above)
 - **Calamity**: Gain 3 exp
 - **Miracle**: Gain 5 exp
 
-This heavily rewards taking risks and attempting difficult tasks. The narrative success is its own reward, while mechanical advancement comes from trying and often failing. The failure cap prevents exploitation while still rewarding natural setbacks.
+This heavily rewards taking risks and attempting difficult tasks. The narrative success is its own reward, while mechanical advancement comes from trying and often failing. The failure cap prevents players from intentionally failing to farm XP while still rewarding early risk-taking and learning from mistakes.
 
 ### Progressing Threads
 
@@ -543,9 +540,8 @@ ___________________________________________________________________________
 |---|----------|---------|
 | 1 | _________________________________________________ | ☑ |
 | 2 | _________________________________________________ | ☑ |
-| 3 | _________________________________________________ | ☑ |
+| 3 | _________________________________________________ (replacement) | ☐ |
 | 4 | _________________________________________________ (replacement) | ☐ |
-| 5 | _________________________________________________ (replacement) | ☐ |
 
 *When a Calamity triggers, uncheck it and write a new one*
 
@@ -604,3 +600,75 @@ ___________________________________________________________________________
 | 1 | ______________________________ | _____________ |
 | 2 | ______________________________ | _____________ |
 | 3 | ______________________________ | _____________ |
+
+---
+
+## Glossary
+
+**Alacrity**: Attribute representing speed and dexterity. Yin: precision and fine control. Yang: speed and quick reflexes.
+
+**Aspect**: A personal trait, item, knowledge, relationship, or belief that defines your character. Can be spent to invert a die's bonus or negate a critical failure.
+
+**Calamity**: A deeply negative event triggered by rolling 1 on a Luck roll or critical failures during Raised Stakes. Causes a pre-written story event, forces you to swap 2 dice, makes you Out of Luck, grants 3 XP, and loses 3 saga points (except during Raised Stakes).
+
+**Challenge**: Any action with a reasonable chance of failure and meaningful consequences. Each Chapter contains exactly 4 Challenges.
+
+**Chapter**: A scene or story segment containing exactly 4 Challenges. Ten Chapters make up one Volume.
+
+**Chapter Director**: The player who wins the Chapter bidding and gains narrative authority for that Chapter. Their character cannot participate in the Chapter's challenges.
+
+**Climactic End**: A special 5-Chapter Volume triggered at 50 saga points where all Chapters have Raised Stakes rules. Resolves the Saga's central question.
+
+**Critical Failure**: Rolling ±17 or beyond. Results in failure, 3 XP, -1 saga point, and a narrative setback. During Raised Stakes, also triggers a Calamity.
+
+**Experience (XP)**: Points earned from challenges. Success grants 1 XP, failure grants 3 XP (first 3 failures per Volume only), Calamities grant 3 XP, Miracles grant 5 XP. Spend 20 XP to progress a Thread.
+
+**Failure**: Rolling outside the target magnitude but not ±17+. Grants 3 XP (first 3 per Volume) with no saga point change.
+
+**Group Aspect**: Shared resource earned when completing a Saga, chosen by the player with most remaining Story Points. Any player can spend once per Volume.
+
+**Huge**: Magnitude requiring rolls of 13-16 (Yang) or -16 to -13 (Yin).
+
+**Interlude**: Automatic pacing break triggered when all players have spent all attribute dice. Players roleplay a flashback scene, then all dice recharge.
+
+**Large**: Magnitude requiring rolls of 9-12 (Yang) or -12 to -9 (Yin).
+
+**Luck Roll**: Rolling d20 as a desperate measure when no attribute dice are available. 1 = Calamity, 2-10 = Failure, 11-19 = Success, 20 = Miracle.
+
+**Magnitude**: The difficulty level of a challenge. Four levels: Small, Medium, Large, or Huge. Each has both Yin (negative) and Yang (positive) ranges.
+
+**Medium**: Magnitude requiring rolls of 5-8 (Yang) or -8 to -5 (Yin).
+
+**Miracle**: Rolling 20 on a Luck roll. Major narrative success granting 5 XP and 3 saga points.
+
+**Out of Luck**: Status after triggering a Calamity. Cannot use Luck rolls for the rest of the Saga.
+
+**Pulchritude**: Attribute representing beauty, creativity, intimidation, and presence. Yin: subtle charm and persuasion. Yang: commanding presence and bold declarations.
+
+**Raised Stakes**: Special Chapter triggered at 25 saga points (once per Saga). Contains 8 challenges instead of 4, grants double XP, and critical failures trigger Calamities.
+
+**Recharging**: Restoring spent dice. All dice recharge at the start of each Volume and during Interludes.
+
+**Reputation**: Attribute representing popularity, recognition, and social connections. Yin: anonymity and working from shadows. Yang: fame and public influence.
+
+**Saga**: A major story arc spanning multiple Volumes, defined by a central question. Ends after completing the Climactic End Volume at 50 saga points.
+
+**Saga Points**: Group progress tracker toward the Saga's goal. Successes add 1, critical failures subtract 1, Calamities subtract 3 (except during Raised Stakes), Miracles add 3.
+
+**Small**: Magnitude requiring rolls of 1-4 (Yang) or -4 to -1 (Yin).
+
+**Story Points**: Resource used to bid for Chapter Director role and to challenge magnitude proposals. Each player starts each Volume with 12.
+
+**Success**: Rolling within the target magnitude range. Grants 1 XP and 1 saga point.
+
+**Temperament**: Attribute representing willpower, focus, attitude, and flexibility. Yin: calm and adaptability. Yang: intense focus and determination.
+
+**Thread**: A story question your character seeks to answer. Spend 20 XP to progress a Thread, gaining a new Aspect and writing your next Thread.
+
+**Vigor**: Attribute representing strength, size, stamina, and constitution. Yin: endurance and resilience. Yang: explosive strength and power.
+
+**Volume**: A unit of play consisting of 10 Chapters. Story Points and Aspects recharge at the start of each Volume.
+
+**Yang**: The warm, energetic, emotional, and creative approach. Mechanically expressed through positive numbers.
+
+**Yin**: The cool, calm, collected, and methodical approach. Mechanically expressed through negative numbers.
