@@ -1,0 +1,372 @@
+/*
+ * This file is part of Dichotomy.
+ * This work is licensed under CC BY-NC-ND 4.0.
+ * License: https://raw.githubusercontent.com/SteffenBlake/Dichotomy/refs/heads/main/LICENSE
+ */
+
+/* 
+ * Dicier Font Face
+ * Dicier (https://speakthesky.itch.io/typeface-dicier), by Speak the Sky,
+ * licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+ */
+@font-face {
+    font-family: Dicier;
+    src: url('/fonts/Dicier.woff2') format('woff2');
+}
+
+.dicier {
+    font-family: Dicier, sans-serif;
+    font-feature-settings: "liga" 1, "kern" 1, "calt" 1;
+}
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Skip to Content Button for Accessibility */
+.skip-to-content {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    background: black;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 0 0 5px 0;
+    z-index: 2000;
+    font-weight: 600;
+}
+
+.skip-to-content:focus {
+    top: 0;
+}
+
+body {
+    font-family: 'Cardo', Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+/* Page Container */
+.page-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Burger Menu (Mobile Only) */
+.burger-menu {
+    display: none;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1000;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.burger-menu span {
+    width: 100%;
+    height: 3px;
+    background: white;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+.burger-menu.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger-menu.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-menu.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
+/* Sidebar Navigation */
+.sidebar {
+    width: 300px;
+    background: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    height: 100dvh; /* Dynamic viewport height accounts for browser UI elements */
+    overflow-y: auto;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    transition: transform 0.3s ease;
+}
+
+.sidebar-header {
+    padding: 2rem 1.5rem;
+    background: black;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-header h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.toc {
+    padding: 1.5rem;
+}
+
+.toc ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.toc ul ul {
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.toc li {
+    margin: 0.5rem 0;
+}
+
+.toc a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+}
+
+.toc a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding-left: 1rem;
+}
+
+/* Main Content */
+.content {
+    flex: 1;
+    margin-left: 300px;
+    background: white;
+}
+
+.content-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+/* Typography */
+.content-wrapper h1 {
+    font-size: 2.5rem;
+    color: #1f2937;
+    margin: 2rem 0 0 0;
+    text-align: center;
+}
+
+.content-wrapper h2 {
+    font-size: 2rem;
+    color: black;
+    margin: 2.5rem 0 0 0;
+    text-align: center;
+}
+
+.content-wrapper h3 {
+    font-size: 1.5rem;
+    color: black;
+    margin: 2rem 0 1rem 0;
+}
+
+/* Decorative Header SVGs */
+.decorative-header-large {
+    display: block;
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 1.5rem auto;
+}
+
+.decorative-header-small {
+    display: block;
+    width: 30%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 1.5rem auto;
+}
+
+.content-wrapper p {
+    margin: 1rem 0;
+    line-height: 1.8;
+    color: black;
+    font-weight: 500;
+}
+
+.content-wrapper a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.content-wrapper a:hover {
+    text-decoration: underline;
+}
+
+.content-wrapper code {
+    background: #f3f4f6;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+}
+
+.content-wrapper pre {
+    background: #1f2937;
+    color: #e5e7eb;
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+.content-wrapper pre code {
+    background: none;
+    padding: 0;
+    color: inherit;
+}
+
+.content-wrapper ul, .content-wrapper ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.content-wrapper li {
+    margin: 0.5rem 0;
+    color: black;
+    font-weight: 500;
+}
+
+/* Footer */
+.site-footer {
+    background: black;
+    color: white;
+    margin-top: 4rem;
+    padding: 2rem 0;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.footer-section h3 {
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.footer-section p {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-section a {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #dbeafe;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+    
+    .sidebar {
+        transform: translateX(-100%);
+    }
+    
+    .sidebar.active {
+        transform: translateX(0);
+    }
+    
+    .content {
+        margin-left: 0;
+    }
+    
+    .content-wrapper {
+        padding: 4rem 1.5rem 2rem 1.5rem;
+    }
+    
+    .content-wrapper h1 {
+        font-size: 3.125rem; /* 25% increase from desktop 2.5rem */
+    }
+    
+    .content-wrapper h2 {
+        font-size: 2.5rem; /* 25% increase from desktop 2rem */
+    }
+    
+    .content-wrapper h3 {
+        font-size: 1.875rem; /* 25% increase from desktop 1.5rem */
+    }
+    
+    .content-wrapper p {
+        font-size: 1.47rem; /* 40% increase from 1.05rem */
+    }
+    
+    .content-wrapper li {
+        font-size: 1.47rem; /* 40% increase to match paragraphs */
+    }
+    
+    .footer-content {
+        padding: 0 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .content-wrapper {
+        padding: 4rem 1rem 2rem 1rem;
+    }
+    
+    .content-wrapper h1 {
+        font-size: 3.125rem; /* 25% increase from desktop 2.5rem */
+    }
+    
+    .content-wrapper h2 {
+        font-size: 2.5rem; /* 25% increase from desktop 2rem */
+    }
+    
+    .footer-content {
+        padding: 0 1rem;
+    }
+}

@@ -1,0 +1,3 @@
+# Dichotomy
+
+Work in progress.

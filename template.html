@@ -1,0 +1,90 @@
+<!--
+This file is part of Dichotomy.
+This work is licensed under CC BY-NC-ND 4.0.
+License: https://raw.githubusercontent.com/SteffenBlake/Dichotomy/refs/heads/main/LICENSE
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dichotomy">
+    <title>Dichotomy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v={cache_buster}">
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
+    <div class="page-container">
+        <!-- Mobile burger menu button -->
+        <button class="burger-menu" id="burgerMenu" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        
+        <!-- Sidebar navigation -->
+        <nav class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h1>Table of Contents</h1>
+            </div>
+            {toc_html}
+        </nav>
+        
+        <!-- Main content -->
+        <main class="content" id="main-content">
+            <div class="content-wrapper">
+                {html_content}
+            </div>
+            
+            <footer class="site-footer">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3>License</h3>
+                        <p>This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-ND 4.0</a>.</p>
+                        <p><a href="https://raw.githubusercontent.com/SteffenBlake/Dichotomy/refs/heads/main/LICENSE" target="_blank" rel="noopener noreferrer">View Full License</a></p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Font Attribution</h3>
+                        <p><a href="https://speakthesky.itch.io/typeface-dicier" target="_blank" rel="noopener noreferrer">Dicier</a>, by Speak the Sky, licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>.</p>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+    
+    <script>
+        // Toggle sidebar on mobile
+        const burgerMenu = document.getElementById('burgerMenu');
+        const sidebar = document.getElementById('sidebar');
+        
+        burgerMenu.addEventListener('click', () => {{
+            sidebar.classList.toggle('active');
+            burgerMenu.classList.toggle('active');
+        }});
+        
+        // Close sidebar when clicking on a link (mobile only)
+        const tocLinks = document.querySelectorAll('.toc a');
+        tocLinks.forEach(link => {{
+            link.addEventListener('click', () => {{
+                if (window.innerWidth <= 768) {{
+                    sidebar.classList.remove('active');
+                    burgerMenu.classList.remove('active');
+                }}
+            }});
+        }});
+        
+        // Close sidebar when clicking outside (mobile only)
+        document.addEventListener('click', (e) => {{
+            if (window.innerWidth <= 768) {{
+                if (!sidebar.contains(e.target) && !burgerMenu.contains(e.target)) {{
+                    sidebar.classList.remove('active');
+                    burgerMenu.classList.remove('active');
+                }}
+            }}
+        }});
+    </script>
+</body>
+</html>
