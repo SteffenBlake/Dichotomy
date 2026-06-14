@@ -99,7 +99,7 @@ All spent Aspects recharge at the start of each Volume.
 - "Will I find the courage to confess my feelings?"
 - "What is the secret my mother kept from me?"
 
-When you spend 20 experience points, you progress one Thread. You influence the next chapter to incorporate resolution or advancement of that story beat, you gain a new Aspect from the narrative progression, and you write down your next Thread.
+As you gain experience during play, you can spend it to progress your Threads (see Experience and Progression below). When you progress a Thread, you influence the next chapter to incorporate resolution or advancement of that story beat, you gain a new Aspect from the narrative progression, and you write down your next Thread.
 
 ### Calamities
 
@@ -110,9 +110,93 @@ During character creation, write down **2-3 Calamities** - deeply negative event
 - "My closest friend betrays me"
 - "I'm forced to break my sacred vow"
 
-When a Calamity is triggered (by rolling a 1 on a Luck roll), one of your written Calamities comes true, you shift your dice assignments, and you write a new Calamity to replace it.
+Calamities are triggered during moments of extreme misfortune (see Luck Rolls below). When one occurs, one of your written Calamities comes true, you shift your dice assignments, and you write a new Calamity to replace it.
 
 *Note: If your Calamities involve sensitive themes or other players' characters, discuss them with the group during character creation to ensure everyone is comfortable with the direction your story might take.*
+
+## Game Structure
+
+### Story Points
+
+Each player starts every Volume with **12 Story Points**. These are used to bid for narrative control and break voting ties. Story Points recharge at the start of each new Volume.
+
+### Volumes and Chapters
+
+A **Volume** consists of **10 Chapters**. At the start of each Volume, all players' Story Points recharge. Volumes are part of larger **Sagas** (see Sagas and Climactic Ends below).
+
+Each **Chapter** is a scene or story segment containing exactly **4 Challenges**.
+
+**Chapter Examples:**
+- Infiltrating the governor's mansion (challenges: bypassing guards, picking the lock, finding the documents, escaping undetected)
+- A tense negotiation with the crime syndicate (challenges: gaining entry to the meeting, reading their true intentions, making a compelling offer, leaving without being followed)
+- Surviving in the wilderness after a shipwreck (challenges: finding fresh water, building shelter, hunting for food, signaling for rescue)
+- Investigating the murder scene (challenges: gaining access past the authorities, finding hidden clues, interviewing witnesses, piecing together the timeline)
+
+### Chapter Bidding
+
+At the start of each Chapter, all players participate in a **blind bid**:
+
+1. Each player secretly chooses how many Story Points to bid (0 or more)
+2. All bids are revealed simultaneously
+3. The highest bidder spends their bid points and becomes the **Chapter Director**
+4. If tied, tied players re-bid until a winner emerges
+
+The Chapter Director sets the scene and guides the narrative flow while other players roleplay their characters and contribute.
+
+**Example:**
+
+*[Players write down bids secretly]*
+
+*Director*: Reveal! Alex: 3, Jordan: 5, Sam: 0, Riley: 2.
+
+*Jordan*: I'll spend 5 points. I have an idea for where we go next - back to the docks where this all started.
+
+*[Jordan becomes Chapter Director and has 7 Story Points remaining for the Volume]*
+
+### Sagas and Climactic Ends
+
+Multiple Volumes combine to form a **Saga** - a major story arc defined by a central question, quest, or goal. At the start of a new Saga, the group collectively decides on this framing question.
+
+Examples of Saga questions:
+- "Can we overthrow the corrupt governor?"
+- "Will we find the lost city of Tal'kesh?"
+- "Can we prevent the prophesied war?"
+- "Will we uncover who murdered the High Priest?"
+
+**Saga Points** track the group's overall progress toward this goal. The saga point total persists across all Volumes within the Saga:
+
+- Start at 0 saga points
+- Saga points cannot go below 0
+- Challenge successes add 1 saga point
+- Critical failures subtract 1 saga point (minimum 0)
+- Calamities subtract 3 saga points (minimum 0)
+- Miracles add 3 saga points
+
+When the group reaches **50 saga points**, the current Chapter AND Volume immediately end, triggering the **Climactic End**.
+
+**The Climactic End** is a special final Volume where the Saga's central question reaches its resolution. It follows the normal structure (10 Chapters, 4 challenges each, all usual rules apply) but narratively focuses on bringing the Saga to a dramatic conclusion.
+
+After completing a Saga's Climactic End Volume:
+1. Each player gains **15 experience points**
+2. The player with the most Story Points remaining (after completing the Climactic End Volume) chooses a **Group Aspect** for the group - a shared resource that any player can spend once per Volume (follows the same rules as personal Aspects)
+3. Group Aspects accumulate across multiple completed Sagas
+4. The group starts a new Saga at 0 saga points with a new central question
+
+This creates a natural rhythm of 3-4 Volume story arcs, with each Saga building toward an epic climax.
+
+**Example:**
+
+*Alex*: We did it! The governor's in custody and the corruption's exposed. What a climax!
+
+*Riley*: That was intense. Looks like I have the most Story Points remaining at 4, so for our Group Aspect, I'm choosing "Allies in the New Government" - we helped put them in power, they owe us.
+
+*Sam*: Perfect. So what's our next Saga? New city, new problems?
+
+*Jordan*: What if we're hunting down the governor's co-conspirators who escaped?
+
+*Alex*: Ooh, or we could explore that mysterious organization that was pulling the strings behind him...
+
+*[The group discusses their next adventure]*
 
 ## Attempting Tasks
 
@@ -147,6 +231,26 @@ All challenges are assigned a **magnitude** representing their difficulty. The f
 Rolling **0** succeeds at balanced/neutral tasks. Rolling beyond **±17** results in a critical failure.
 
 Success requires rolling **within** the target range. Overshooting causes failure. Any attribute can potentially solve a challenge as long as it hits the target magnitude and makes narrative sense.
+
+### Determining Challenge Magnitudes
+
+When a challenge arises, players must collectively determine its magnitude (Small, Medium, Large, or Huge). Players do NOT specify which attribute is required, nor whether it must be Yin or Yang. Any attribute can solve the challenge as long as it hits the target magnitude and makes narrative sense.
+
+For example, a Medium magnitude challenge to get past a guard could be solved by:
+- Yin Alacrity (sneaking past quietly)
+- Yang Pulchritude (intimidating them into backing down)
+- Yin Reputation (blending into the background unnoticed)
+- Yang Vigor (physically overpowering them)
+
+The approach is up to the player attempting it.
+
+The process:
+1. **Open Vote**: All players vote on the magnitude
+2. If there's a clear majority, that magnitude wins
+3. **If Tied**: Any tied player can spend 1 Story Point to push their choice through
+4. **Multiple Spenders**: If multiple players spend Story Points, the highest magnitude among spenders wins
+
+This encourages creative problem-solving, as ANY character approach works if it narratively makes sense and hits the magnitude.
 
 **Example:**
 
@@ -306,110 +410,6 @@ Interludes provide natural pacing breaks and character development opportunities
 [Players roleplay the flashback scene]
 
 *Jordan*: Great scene! Everyone's recharged. Back to the merchant...
-
-## GMless Structure
-
-### Story Points
-
-Each player starts every Volume with **12 Story Points**. These are used to bid for narrative control and break voting ties. Story Points recharge at the start of each new Volume.
-
-### Volumes and Chapters
-
-A **Volume** consists of **10 Chapters**. At the start of each Volume, all players' Story Points recharge. Volumes are part of larger **Sagas** (see Sagas and Climactic Ends below).
-
-Each **Chapter** is a scene or story segment containing exactly **4 Challenges**.
-
-**Chapter Examples:**
-- Infiltrating the governor's mansion (challenges: bypassing guards, picking the lock, finding the documents, escaping undetected)
-- A tense negotiation with the crime syndicate (challenges: gaining entry to the meeting, reading their true intentions, making a compelling offer, leaving without being followed)
-- Surviving in the wilderness after a shipwreck (challenges: finding fresh water, building shelter, hunting for food, signaling for rescue)
-- Investigating the murder scene (challenges: gaining access past the authorities, finding hidden clues, interviewing witnesses, piecing together the timeline)
-
-### Chapter Bidding
-
-At the start of each Chapter, all players participate in a **blind bid**:
-
-1. Each player secretly chooses how many Story Points to bid (0 or more)
-2. All bids are revealed simultaneously
-3. The highest bidder spends their bid points and becomes the **Chapter Director**
-4. If tied, tied players re-bid until a winner emerges
-
-The Chapter Director sets the scene and guides the narrative flow while other players roleplay their characters and contribute.
-
-**Example:**
-
-*[Players write down bids secretly]*
-
-*Director*: Reveal! Alex: 3, Jordan: 5, Sam: 0, Riley: 2.
-
-*Jordan*: I'll spend 5 points. I have an idea for where we go next - back to the docks where this all started.
-
-*[Jordan becomes Chapter Director and has 7 Story Points remaining for the Volume]*
-
-### Determining Challenge Magnitudes
-
-When a challenge arises, players must collectively determine its magnitude (Small, Medium, Large, or Huge). Players do NOT specify which attribute is required, nor whether it must be Yin or Yang. Any attribute can solve the challenge as long as it hits the target magnitude and makes narrative sense.
-
-For example, a Medium magnitude challenge to get past a guard could be solved by:
-- Yin Alacrity (sneaking past quietly)
-- Yang Pulchritude (intimidating them into backing down)
-- Yin Reputation (blending into the background unnoticed)
-- Yang Vigor (physically overpowering them)
-
-The approach is up to the player attempting it.
-
-The process:
-1. **Open Vote**: All players vote on the magnitude
-2. If there's a clear majority, that magnitude wins
-3. **If Tied**: Any tied player can spend 1 Story Point to push their choice through
-4. **Multiple Spenders**: If multiple players spend Story Points, the highest magnitude among spenders wins
-
-This encourages creative problem-solving, as ANY character approach works if it narratively makes sense and hits the magnitude.
-
-### Sagas and Climactic Ends
-
-Multiple Volumes combine to form a **Saga** - a major story arc defined by a central question, quest, or goal. At the start of a new Saga, the group collectively decides on this framing question.
-
-Examples of Saga questions:
-- "Can we overthrow the corrupt governor?"
-- "Will we find the lost city of Tal'kesh?"
-- "Can we prevent the prophesied war?"
-- "Will we uncover who murdered the High Priest?"
-
-**Saga Points** track the group's overall progress toward this goal. The saga point total persists across all Volumes within the Saga:
-
-- Start at 0 saga points
-- Saga points cannot go below 0
-- Challenge successes add 1 saga point
-- Critical failures subtract 1 saga point (minimum 0)
-- Calamities subtract 3 saga points (minimum 0)
-- Miracles add 3 saga points
-
-When the group reaches **50 saga points**, the current Chapter AND Volume immediately end, triggering the **Climactic End**.
-
-**The Climactic End** is a special final Volume where the Saga's central question reaches its resolution. It follows the normal structure (10 Chapters, 4 challenges each, all usual rules apply) but narratively focuses on bringing the Saga to a dramatic conclusion.
-
-After completing a Saga's Climactic End Volume:
-1. Each player gains **15 experience points**
-2. The player with the most Story Points remaining (after completing the Climactic End Volume) chooses a **Group Aspect** for the group - a shared resource that any player can spend once per Volume (follows the same rules as personal Aspects)
-3. Group Aspects accumulate across multiple completed Sagas
-4. The group starts a new Saga at 0 saga points with a new central question
-
-This creates a natural rhythm of 3-4 Volume story arcs, with each Saga building toward an epic climax.
-
-**Example:**
-
-*Alex*: We did it! The governor's in custody and the corruption's exposed. What a climax!
-
-*Riley*: That was intense. Looks like I have the most Story Points remaining at 4, so for our Group Aspect, I'm choosing "Allies in the New Government" - we helped put them in power, they owe us.
-
-*Sam*: Perfect. So what's our next Saga? New city, new problems?
-
-*Jordan*: What if we're hunting down the governor's co-conspirators who escaped?
-
-*Alex*: Ooh, or we could explore that mysterious organization that was pulling the strings behind him...
-
-*[The group discusses their next adventure]*
 
 ## Experience and Progression
 
