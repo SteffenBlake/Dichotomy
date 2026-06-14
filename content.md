@@ -12,11 +12,11 @@ While many RPGs focus heavily on combat, character placement, and inventory trac
 
 The foundation of Dichotomy is duality. All tasks, rolls, attributes, and bonuses are either Yin or Yang, with neither being "good" or "bad," just different. This represents how nearly everything has another side to its coin.
 
-**Yin** represents the cool, calm, collected, and methodical. It is associated with low and negative numbers.
+**Yin** represents the cool, calm, collected, and methodical. It is mechanically expressed through negative numbers.
 
-**Yang** represents the warm, energetic, emotional, and creative. It is associated with high and positive numbers.
+**Yang** represents the warm, energetic, emotional, and creative. It is mechanically expressed through positive numbers.
 
-Everyone has a bit of both in them, and characters naturally balance Yin and Yang characteristics.
+Everyone has a bit of both in them, and characters naturally balance Yin and Yang characteristics. When you roll dice to attempt a task, your result determines whether you've used a Yin or Yang approach - negative results are Yin, positive results are Yang. Both are equally valid paths to success, just different in nature (see Magnitudes for details on how this works).
 
 ## Character Creation
 
@@ -54,9 +54,9 @@ Each attribute can be expressed through either its Yin or Yang aspect:
 
 ### Assigning Dice
 
-Players assign one of each of five polyhedral dice to their five attributes: {dicier:d4}, {dicier:d6}, {dicier:d8}, {dicier:d10}, and {dicier:d12}. Each attribute gets exactly one die.
+Players assign dice to their five attributes, using each die size exactly once: one {dicier:d4}, one {dicier:d6}, one {dicier:d8}, one {dicier:d10}, and one {dicier:d12}. Each attribute gets exactly one die, and you cannot use the same die size for multiple attributes.
 
-For each die, the player chooses a **permanent bonus modifier** (any number, though -12 to +12 is recommended). This bonus is permanently tied to that die and attribute combination. For example, if you assign {dicier:d4} with a +10 bonus to Alacrity, every time you use Alacrity you roll {dicier:d4}+10 (rolling 13-16). If you assign {dicier:d8} with -3 to Vigor, every time you use Vigor you roll {dicier:d8}-3 (rolling -2 to 5).
+For each die, the player chooses a **permanent bonus modifier**. While you can technically choose any number, it is **highly recommended** to keep modifiers between **-12 and +12**. This bonus is permanently tied to that die and attribute combination. For example, if you assign {dicier:d4} with a +10 bonus to Alacrity, every time you use Alacrity you roll {dicier:d4}+10 (rolling 11-14). If you assign {dicier:d8} with -3 to Vigor, every time you use Vigor you roll {dicier:d8}-3 (rolling -2 to 5).
 
 Each die-attribute-modifier combination represents how your character approaches that aspect of their capabilities.
 
@@ -118,7 +118,7 @@ Calamities are triggered during moments of extreme misfortune (see Luck Rolls be
 
 ### Story Points
 
-Each player starts every Volume with **12 Story Points**. These are used to bid for narrative control and break voting ties. Story Points recharge at the start of each new Volume.
+Each player starts every Volume with **12 Story Points**. These are used to bid for narrative control and break voting ties. At the start of each new Volume, all players reset to 12 Story Points regardless of how many they had remaining from the previous Volume.
 
 ### Volumes and Chapters
 
@@ -139,9 +139,27 @@ At the start of each Chapter, all players participate in a **blind bid**:
 1. Each player secretly chooses how many Story Points to bid (0 or more)
 2. All bids are revealed simultaneously
 3. The highest bidder spends their bid points and becomes the **Chapter Director**
-4. If tied, tied players re-bid until a winner emerges
+4. If tied, randomly select the winner from tied players (roll a die, draw cards, etc.)
 
-The Chapter Director sets the scene and guides the narrative flow while other players roleplay their characters and contribute.
+### The Chapter Director's Role
+
+The Chapter Director has specific narrative authority for the duration of the Chapter:
+
+**Powers:**
+- Frame and describe the Chapter's opening scene and setting
+- Narrate the outcomes of all challenge attempts (successes, failures, and critical failures)
+- Play NPCs and describe their actions, reactions, and dialogue
+- Describe environmental changes and the world's reactions to player actions
+- Guide the pacing and ensure the Chapter moves through its 4 required challenges
+- Narrate how critical failures set back the group's saga progress
+
+**Limitations:**
+- Cannot dictate what player characters think, feel, or do (players control their own characters)
+- Does not have sole authority over magnitude determination (the group votes)
+- Cannot prevent other players from proposing challenges
+- Should respond to and incorporate player ideas and suggestions
+
+**Important:** The Chapter Director's character cannot participate in the Chapter's challenges. The Director must provide a narrative reason why their character is "off stage" - getting supplies, standing watch, handling a separate task, etc. Their character can be present in the story and interact narratively, but cannot directly participate in or attempt any of the 4 challenges. This creates a meaningful trade-off: bidding Story Points for narrative control means giving up the opportunity to earn experience that Chapter.
 
 **Example:**
 
@@ -149,7 +167,7 @@ The Chapter Director sets the scene and guides the narrative flow while other pl
 
 *Director*: Reveal! Alex: 3, Jordan: 5, Sam: 0, Riley: 2.
 
-*Jordan*: I'll spend 5 points. I have an idea for where we go next - back to the docks where this all started.
+*Jordan*: I'll spend 5 points. I have an idea for where we go next - back to the docks where this all started. My character needs to stay behind and keep watch for any tails, so I'll be narrating this one.
 
 *[Jordan becomes Chapter Director and has 7 Story Points remaining for the Volume]*
 
@@ -172,23 +190,52 @@ Examples of Saga questions:
 - Calamities subtract 3 saga points (minimum 0)
 - Miracles add 3 saga points
 
+### Raised Stakes
+
+When the group reaches **25 saga points for the first time in a Saga**, mark it and note that the **next Chapter** will have **Raised Stakes**. This represents the story reaching a critical turning point where everything intensifies. This only happens once per Saga.
+
+A Raised Stakes Chapter has special rules:
+- Contains **8 challenges** instead of 4
+- Successes grant **2 experience** instead of 1 (still +1 saga point)
+- Failures grant **4 experience** instead of 3 (still no saga change)
+- **Critical failures trigger a Calamity** in addition to their normal effects (-1 saga point and narrative setback)
+- Players cannot spend experience to progress Threads during this Chapter (wait until the next Chapter)
+- All other rules apply normally (bidding, magnitude voting, dice recharging, etc.)
+
+After completing the Raised Stakes Chapter, the Saga continues normally until reaching 50 saga points.
+
+**Example:**
+
+*Director*: That success brings us to exactly 25 saga points! Next Chapter has Raised Stakes.
+
+*Sam*: Eight challenges? This is going to be intense.
+
+*Alex*: And if I critically fail, I trigger a Calamity? No pressure...
+
+*Jordan*: But think of the XP! Even failures give 4 instead of 3.
+
+*Riley*: Let's make this count. The governor knows we're coming - time for the big confrontation.
+
+*[The group prepares for their most challenging Chapter yet]*
+
+### Climactic End
+
 When the group reaches **50 saga points**, the current Chapter AND Volume immediately end, triggering the **Climactic End**.
 
-**The Climactic End** is a special final Volume where the Saga's central question reaches its resolution. It follows the normal structure (10 Chapters, 4 challenges each, all usual rules apply) but narratively focuses on bringing the Saga to a dramatic conclusion.
+**The Climactic End** is a special final Volume where the Saga's central question reaches its resolution. It consists of only **5 Chapters**, but **all 5 Chapters have Raised Stakes** (8 challenges each, enhanced XP gains, critical failures trigger Calamities, and Thread XP cannot be spent until after the Climactic End Volume completes). All usual rules apply (bidding, magnitude voting, dice recharging, interludes, etc.).
 
 After completing a Saga's Climactic End Volume:
-1. Each player gains **15 experience points**
-2. The player with the most Story Points remaining (after completing the Climactic End Volume) chooses a **Group Aspect** for the group - a shared resource that any player can spend once per Volume (follows the same rules as personal Aspects)
-3. Group Aspects accumulate across multiple completed Sagas
-4. The group starts a new Saga at 0 saga points with a new central question
+1. The player with the most Story Points remaining (after completing the Climactic End Volume) chooses a **Group Aspect** for the group - a shared resource that any player can spend once per Volume (follows the same rules as personal Aspects). If tied, randomly select the winner from tied players.
+2. Group Aspects accumulate across multiple completed Sagas
+3. The group starts a new Saga at 0 saga points with a new central question
 
 This creates a natural rhythm of 3-4 Volume story arcs, with each Saga building toward an epic climax.
 
 **Example:**
 
-*Alex*: We did it! The governor's in custody and the corruption's exposed. What a climax!
+*Alex*: We did it! The governor's in custody and the corruption's exposed. What a climax! Five straight chapters of Raised Stakes was brutal.
 
-*Riley*: That was intense. Looks like I have the most Story Points remaining at 4, so for our Group Aspect, I'm choosing "Allies in the New Government" - we helped put them in power, they owe us.
+*Riley*: That was intense. I triggered two Calamities in there. Looks like I have the most Story Points remaining at 4, so for our Group Aspect, I'm choosing "Allies in the New Government" - we helped put them in power, they owe us.
 
 *Sam*: Perfect. So what's our next Saga? New city, new problems?
 
@@ -219,6 +266,8 @@ A **Challenge** is any action a character attempts that has a reasonable chance 
 
 Each Chapter contains exactly 4 Challenges. While the Chapter Director typically frames situations where challenges naturally arise, any player can propose a challenge during play. The group collectively determines whether an action warrants a roll.
 
+When a challenge arises, players discuss who will attempt it. Typically, someone volunteers - ideally a player whose dice have a reasonable chance of hitting the target magnitude. If no one can easily hit the range, players may spend Aspects to invert their bonuses, or resort to Luck rolls.
+
 ### Magnitudes
 
 All challenges are assigned a **magnitude** representing their difficulty. The four magnitudes are:
@@ -228,9 +277,9 @@ All challenges are assigned a **magnitude** representing their difficulty. The f
 - **Large**: Rolls of 9-12 (Yang) or -12 to -9 (Yin)
 - **Huge**: Rolls of 13-16 (Yang) or -16 to -13 (Yin)
 
-Rolling **0** succeeds at balanced/neutral tasks. Rolling beyond **±17** results in a critical failure.
+Rolling **0** is a failure. Rolling beyond **±17** results in a critical failure.
 
-Success requires rolling **within** the target range. Overshooting causes failure. Any attribute can potentially solve a challenge as long as it hits the target magnitude and makes narrative sense.
+Success requires rolling **within either the Yin or Yang range** for the target magnitude. For example, a Medium magnitude challenge succeeds if you roll 5-8 (Yang) **OR** -8 to -5 (Yin). Overshooting either range causes failure. Any attribute can potentially solve a challenge as long as it hits the target magnitude (in either Yin or Yang) and makes narrative sense.
 
 ### Determining Challenge Magnitudes
 
@@ -328,16 +377,14 @@ Each challenge can only be attempted once - no do-overs! The narrative must move
 
 ### Luck Rolls
 
-As a last resort, you may roll {dicier:d20} for **Luck** instead of spending an attribute die. This is a pure pass/fail hail mary:
+You may roll {dicier:d20} for **Luck** instead of spending an attribute die. This is a pure pass/fail gamble that ignores magnitude entirely:
 
 - **1**: **Calamity** - See Calamities below
 - **2-10**: Failure (gain 3 exp, no saga point change)
 - **11-19**: Success (gain 1 exp, group gains 1 saga point)
 - **20**: **Miracle** - Major narrative success with spectacular consequences (gain 5 exp, group gains 3 saga points)
 
-Luck rolls ignore magnitude entirely - they simply determine whether you succeed or fail at the task. You cannot spend Aspects on Luck rolls. The Luck die counts as spent when used and must be recharged like other dice.
-
-Use Luck rolls sparingly - they represent pure chance when you have no relevant attribute available or all your dice are spent.
+You can choose to use Luck even when you have attribute dice available, though it's risky - a 1 triggers a Calamity. Luck rolls ignore magnitude entirely and simply determine whether you succeed or fail at the task. You cannot spend Aspects on Luck rolls. The Luck die counts as spent when used and must be recharged like other dice.
 
 **Example:**
 
@@ -417,16 +464,16 @@ Interludes provide natural pacing breaks and character development opportunities
 
 After each challenge attempt:
 - **Success**: Gain 1 exp
-- **Failure**: Gain 3 exp
+- **Failure**: Gain 3 exp (only the first 3 failures per player per Volume grant experience; subsequent failures grant 0 exp)
 - **Calamity**: Gain 3 exp
 - **Miracle**: Gain 5 exp
 
-This heavily rewards taking risks and attempting difficult tasks. The narrative success is its own reward, while mechanical advancement comes from trying and often failing.
+This heavily rewards taking risks and attempting difficult tasks. The narrative success is its own reward, while mechanical advancement comes from trying and often failing. The failure cap prevents exploitation while still rewarding natural setbacks.
 
 ### Progressing Threads
 
 Spend **20 exp** to progress a Thread. When you do:
-1. The next Chapter incorporates resolution or advancement of that Thread's story beat
+1. Work collaboratively with the table (especially the current Chapter Director if mid-Chapter) to weave in resolution or advancement of that Thread's story beat - this can happen immediately if it makes narrative sense, or be incorporated into the next Chapter
 2. You gain a new Aspect emerging from the narrative
 3. You write down your next Thread
 
@@ -515,6 +562,8 @@ ___________________________________________________________________________
 
 **Threads Completed**: _____
 
+**Failures This Volume**: ☐ ☐ ☐  (first 3 grant 3 exp each, resets each Volume)
+
 ### Story Points
 
 ☐ ☐ ☐ ☐ ☐ ☐ ☐ ☐ ☐ ☐ ☐ ☐  (12 total, recharge each Volume)
@@ -531,7 +580,8 @@ ___________________________________________________________________________
 
 ☐☐☐☐☐ ☐☐☐☐☐ (10)  
 ☐☐☐☐☐ ☐☐☐☐☐ (20)  
-☐☐☐☐☐ ☐☐☐☐☐ (30)  
+☐☐☐☐☐ (25) ← **Raised Stakes: next Chapter has 8 challenges!**  
+☐☐☐☐☐ (30)  
 ☐☐☐☐☐ ☐☐☐☐☐ (40)  
 ☐☐☐☐☐ ☐☐☐☐☐ (50) ← **Climactic End triggers!**
 
@@ -545,7 +595,7 @@ ___________________________________________________________________________
 | 4 | ___________________________________________ | ☐ |
 | 5 | ___________________________________________ | ☐ |
 
-*Group Aspects recharge (can be used again) at the start of each Volume*
+*Group Aspects recharge (can be used again) at the start of each Volume. They follow the same rules as personal Aspects - any player can spend one to invert a die's bonus before a roll, or negate a critical failure after rolling.*
 
 ### Completed Sagas
 
