@@ -1,0 +1,6 @@
+{
+  "players": ["Spike", "Johnny", "Timmy"],
+  "model": "gpt-6-luna",
+  "max_turns": 300,
+  "scope": "Play one session. Agree on its stopping point before play; one Volume is a suggested starting point, not a ruling."
+}

@@ -11,7 +11,7 @@ Before starting any work task, you must:
 
 ## Available Skill Files
 
-Located in `.github/skills/`:
+Located in `.agents/skills/`:
 
 - **dicier-user-guide** - Complete guide for the Dicier font system (dice, cards, game icons)
 - **markdown-editting** - Guidelines for editing content.md (style, formatting, Dicier syntax)

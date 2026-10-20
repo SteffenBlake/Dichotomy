@@ -1,0 +1,7 @@
+# Runtime directories, credentials, databases, agent histories and logs stay local.
+/sessions/*
+!/sessions/.gitignore
+!/sessions/skeleton/
+/runtime/
+__pycache__/
+*.py[cod]
